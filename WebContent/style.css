@@ -1,0 +1,68 @@
+@charset "utf-8";
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width: 40px;
+    background-color: rgba(255,255,255,.5);
+}
+
+:root {
+    --main-color: #34e0a1;
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.fixed-height {
+	height: 240px;
+}
+
+.image {
+	background: no-repeat center / cover;
+}
+
+.c-item{
+    height: 480px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.slide {
+	margin-top: 80px !important; 
+}
+
+.menu-img {
+	height: 180px;
+	width: 100%;
+}
+
+.quantity-input {
+	width: 40px;
+}
+
+.mw-50 {
+	max-width: 50%;
+}
+
+.mt-80 {
+	margin-top: 80px !important;
+}
+
+.modal-content {
+	max-width: 75%;
+    margin: auto;	
+}
+
+@media only screen and (max-width: 768px) {
+	.modal-content {
+		max-width: 100%;
+	    margin: auto;	
+	}
+}
